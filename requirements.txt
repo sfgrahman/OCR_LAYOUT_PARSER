@@ -1,5 +1,4 @@
 streamlit
-torch -index-url https://download.pytorch.org/whl/cpu
 opencv-python
 layoutparser
 layoutparser[ocr]
@@ -8,6 +7,8 @@ layoutparser[effdet]
 tensorflow
 keras-ocr
 pytesseract
-ydetectron2 @git+https://github.com/facebookresearch/detectron2.git
+--extra-index-url  https://download.pytorch.org/whl/cpu
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+--index-url git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2
 
 
