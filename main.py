@@ -6,12 +6,12 @@ import cv2
 import keras_ocr
 import math
 import re
-try:
-    from detectron2.config import get_cfg  
-except ModuleNotFoundError:
-    import subprocess
-    import sys
-    subprocess.check_call([sys.executable, "-m", "pip", "install", 'detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2'])
+# try:
+#     from detectron2.config import get_cfg  
+# except ModuleNotFoundError:
+#     import subprocess
+#     import sys
+#     subprocess.check_call([sys.executable, "-m", "pip", "install", 'detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2'])
 
 
 model = lp.Detectron2LayoutModel('lp://TableBank/faster_rcnn_R_101_FPN_3x/config',
