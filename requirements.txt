@@ -2,9 +2,9 @@ streamlit
 torch
 layoutparser
 layoutparser[ocr]
-torchvision 
+torchvision
 layoutparser[effdet]
-
+git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2
 pytesseract
 
 
