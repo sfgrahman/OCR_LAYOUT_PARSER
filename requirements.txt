@@ -5,7 +5,9 @@ layoutparser
 layoutparser[ocr]
 torchvision
 layoutparser[effdet]
-
+tensorflow
+keras-ocr
 pytesseract
+
 
 
